@@ -1,0 +1,78 @@
+
+body {
+    margin: 0px;
+    background-color: rgb(228, 228, 228);
+    font-family: "co text",Arial, Helvetica, sans-serif;
+}
+
+
+#master
+{
+    justify-content: center;
+   
+    height: 600px;
+    width: 500px;
+    margin: auto;
+
+
+}
+#header{
+    height: 80px ;
+    background-color: rgb(39, 39, 39) ;
+    padding:2px ;
+    margin: 0px;
+}
+h1 {
+
+    color: rgb(255, 255, 255);
+  margin-left:25%  ;
+  margin-bottom: 0px;
+  
+}
+#counter {
+
+    background-color: rgb(1, 255, 234);
+    margin: 0px;
+    height: 520px;
+    padding:2px ;
+}
+h2{
+    margin-left: 5%;
+}
+#inputDollar,#inputPeople {
+
+    margin-left: 7%; 
+    height: 40px;
+    width: 400px;
+}
+#ServiceType{
+
+    margin-left: 7%; 
+    height: 40px;
+    width: 400px;
+
+}
+#calculat{
+
+    height: 50px ;
+    background-color: rgb(39, 39, 39) ;
+    padding:0px ;
+    margin: 0px;
+    border: 0px ;
+    width: 500px;
+    text-align: center;
+    
+
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+#allresult {
+    font-size: 25px ;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+    margin-top:15px ;
+}

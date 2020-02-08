@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Tip Calculator </title> 
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+            <div  id= "master"  >
+                <div id="header">
+                    <h1  > Tip Calculator </h1>
+                </div>
+                <div id="counter">
+                    <div id=  "Bill" >
+                        <h2> How much was your Bill ? </h2>
+                       
+                        <input type="number" id="inputDollar"  min="0" value="" >
+                        <span class="dollar"> <b>Dollar</b></span>
+                    </div>
+
+                    <div id="people"> 
+                        <h2> How many people are sharing the bill </h2>
+                        <input type="number" id="inputPeople" min="0" value=""   >
+                        <span class="dollar"> <b>people</b></span>
+                    </div>
+                    <div id="service">
+                        <h2> How was your Service ? </h2>
+                        
+
+                        <select id="serviceType" name="service">
+                            <option value="0" selected disabled > select Service </option>
+                        
+                            <option  value="5"  >  Terrible - 5% </option>
+                            <option   value="10"  > Bad - 10% </option>
+                            <option   value="15"  > OK - 15% </option>
+                            <option  value="20"  > Good - 20% </option>
+                            <option value="30"  > Outstanding - 30% </option>
+                        </select>
+                          
+                    </div>
+                    <div id = "allresult" > 
+                      
+                    </div>
+                   
+                </div>
+                
+                <div id = "footer">
+                    
+                    <button id="calculat" onclick="saowan()"> <h3>calculat</h3> </button>
+              
+                </div>
+            </div>
+            <script src="New Text Document.js"></script> 
+
+    </body>
+
+</html>
